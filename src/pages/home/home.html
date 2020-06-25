@@ -1,0 +1,21 @@
+<ion-header>
+  <div class="separa">
+  <button class="botao-users" ion-button disabled>Cliente</button>
+  <button class="botao-users" ion-button (click)="abrirADM();">Administrador</button>  
+</div>
+</ion-header>
+  
+<ion-content padding>
+  <div class="login">
+  <h1>LOGIN</h1>
+  
+  <form method="post">
+    <input type="text" name="Email" placeholder="Email" required="required" />
+    <input type="password" name="senha" placeholder="Senha" required="required" />
+  
+  
+      <button class="btn btn-primary btn-block btn-large" ion-button (click)="abrirUsuario();">ENTRAR</button>
+      <a (click)="abrirCadastrar();">Cadastre-se</a>
+    </form>
+  </div>
+</ion-content>

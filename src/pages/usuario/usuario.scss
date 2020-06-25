@@ -1,0 +1,60 @@
+page-usuario {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    *{
+        
+        -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box;
+    
+    }
+    html { width: 100%; height:100%; overflow:hidden; 
+    }
+    ion-content{ 
+        
+        width: 100%;
+        height:100%;
+        
+        background: #2F3640;
+        background: -moz-radial-gradient(0% 100%, ellipse cover, #2F3640 10%,#2F3640 40%),-moz-linear-gradient(top, #2F3640 0%, #2f3640 100%), -moz-linear-gradient(-45deg,  #2f3640 0%, #2f3640 100%);
+        background: -webkit-radial-gradient(0% 100%, ellipse cover, #2F3640 10%,#2F3640 40%), -webkit-linear-gradient(top,  #2F3640 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg,  #2f3640 0%,#2f3640 100%);
+        background: -o-radial-gradient(0% 100%, ellipse cover, #2F3640 10%,#2F3640 40%), -o-linear-gradient(top,  #2F3640 0%,#2F3640 100%), -o-linear-gradient(-45deg,  #2f3640 0%,#2f3640 100%);
+        background: -ms-radial-gradient(0% 100%, ellipse cover, #2F3640 10%,#2F3640 40%), -ms-linear-gradient(top,  #2F3640 0%,#2F3640 100%), -ms-linear-gradient(-45deg,  #2f3640 0%,#2f3640 100%);
+        background: -webkit-radial-gradient(0% 100%, ellipse cover, #2F3640 10%,#2F3640 40%), linear-gradient(to bottom,  #2F3640 0%,#2F3640 100%), linear-gradient(135deg,  #2f3640 0%,#2f3640 100%);
+   
+       
+      
+        
+           
+        
+        label{
+        font-size: 20px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        }
+        .filas{
+            margin-top: 30%;
+            display: grid;
+
+            .btn, .disable-hover, .button, .button-md, .button-default, .button-default-md{
+                height: 60px;
+                background-color: #9c89ff;
+                font-family: 'Roboto', sans-serif;
+                
+            }
+        }
+    }
+    
+        .header, .header-md{
+        
+        ion-navbar{
+           
+            ion-title{
+                margin-left: 26%;
+            }
+        }
+        
+    }  
+    
+            
+ }
+    
+
+

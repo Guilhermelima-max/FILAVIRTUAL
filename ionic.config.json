@@ -1,0 +1,7 @@
+{
+  "name": "filaVirtual",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
